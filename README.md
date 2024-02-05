@@ -16,8 +16,6 @@ This is a Python script designed for scraping latest restaurant health inspectio
 
 ## How to Install and Run Locally
 
-### Install Python 3 and Pip Package Manager
-
 #### Python Installation
 
 ```bash
