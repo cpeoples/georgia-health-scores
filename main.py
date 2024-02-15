@@ -44,7 +44,8 @@ async def prompt_user(message):
 
 async def get_keyword():
     while True:
-        keyword = input("Enter the name of the establishment (Optional): ")
+        keyword = input(
+            "Enter the name or partial name of the establishment (Optional): ")
         try:
             return keyword
         except ValueError:
@@ -181,7 +182,7 @@ async def main():
         score_range = await get_score_range()
 
         confirm_message = confirm(
-            f"\nAre these the correct values?\nEstablishment Name: {keyword}\nCity: {city}\nCounty: {county}\nPermit: {permit}\nLowest Score: {score_range[0]}\nHighest Score: {score_range[1]}\nStart Date: {start_date}\nEnd Date: {formatted_date}"
+            f"\nAre these the correct values?\nEstablishment Name or Partial Name: {keyword}\nCity: {city}\nCounty: {county}\nPermit: {permit}\nLowest Score: {score_range[0]}\nHighest Score: {score_range[1]}\nStart Date: {start_date}\nEnd Date: {formatted_date}"
         )
 
         if confirm_message:
