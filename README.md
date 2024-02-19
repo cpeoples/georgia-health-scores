@@ -35,8 +35,8 @@ alias pip=pip3
 ```bash
 git clone git@github.com:cpeoples/georgia-health-scores.git
 cd georgia-health-scores
-pip install -r requirements.txt
 python -m venv env
+pip install -r requirements.txt
 ```
 
 #### Execute
