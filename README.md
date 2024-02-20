@@ -36,6 +36,7 @@ alias pip=pip3
 git clone git@github.com:cpeoples/georgia-health-scores.git
 cd georgia-health-scores
 python -m venv env
+source env/bin/activate
 pip install -r requirements.txt
 ```
 
