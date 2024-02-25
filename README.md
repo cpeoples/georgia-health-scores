@@ -1,4 +1,4 @@
-# Georgie Health Scores
+# Georgia Health Scores
 
 This is a Python script designed for scraping latest restaurant health inspection data for the state of Georgia. This project was solely created for practicing asyncio in Python.
 
