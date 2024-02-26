@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
-import asyncio
 import aiohttp
+import asyncio
 import base64
 import datetime
 import json
 import urllib.parse
 
-from rich.console import Console
 from beaupy import confirm, select
 from beaupy.spinners import Spinner
+from rich.console import Console
 
 console = Console()
 
